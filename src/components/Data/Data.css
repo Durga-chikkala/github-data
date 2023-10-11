@@ -1,0 +1,47 @@
+.top{
+    display: flex;
+    width:99%;
+    margin: auto;
+    height:200px;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(90deg, rgb(51, 41, 44) 0%, rgb(139, 102, 241) 100%);
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: auto;
+    color: white;
+    margin-top: 5px;
+}
+
+.top img{
+    border:1px solid black;
+}
+
+.top .text{
+    display: flex;
+    flex-direction: column;
+    height:100px;
+    line-height: 0px;
+    gap:0px;
+    box-sizing: border-box;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.top .text p{
+    font-weight: 550;
+}
+
+.following{
+    color:white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.following p{
+    font-size: 24px;
+}
+
+.repo{
+    color: rgb(253, 251, 251);
+}

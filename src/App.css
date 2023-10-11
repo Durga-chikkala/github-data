@@ -1,0 +1,68 @@
+.App {
+  text-align: center;
+  background-color: #080809;
+  height: 100%;
+}
+input {
+	box-sizing: border-box;
+	font-size: 13px;
+	vertical-align: top;
+}
+
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+.header img{
+  height:80px;
+  width: 80px;
+}
+.input{
+  display: flex;
+  color:white;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  border-radius:0px 0px 20px 20px ;
+  background: linear-gradient(90deg, rgb(39, 31, 33) 0%, rgb(139, 102, 241) 100%);
+}
+.input p{
+  margin-bottom: 40px;
+}
+.wrapper {
+	text-align: center;
+	height: 50vh;
+  display: flex;
+  align-items: center;
+	
+}
+
+.search {
+	padding: 0 10px;
+	font-size: 18px;
+	width: 80%;
+	max-width: 400px;
+	height: 60px;
+  border: none;
+	border-radius: 20px 0 0 20px;
+}
+
+.search:hover{
+  outline-color: blue;
+}
+
+.submit {
+	cursor: pointer;
+	border: none;
+	background: url('http://thesuiteworld.com/wp-admin/maint/search-icon-white-png-540.png') no-repeat center center, #1E1E20;
+	background-size: 15px 15px;
+	border-radius: 0 20px 20px 0;
+	padding: 10px 15px;
+	display: inline-block;
+	width: 100px;
+	height: 60px;
+  color: #f2eaea;
+}
